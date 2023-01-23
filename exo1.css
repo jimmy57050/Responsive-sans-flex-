@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 7vh;
+    background-color: aqua;
+    font-size: 20px;
+    padding: 2vh;
+    text-align: center;
+}
+
+.container {
+    background-color: antiquewhite;
+    height: max-content;
+    width: 100%;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 5px;
+
+}
+
+
+
+    @media  screen and (max-width:800px) {
+        header {
+            display: none;
+        }
+    }
+
+    @media screen and (min-width:640px) {   
+        #wid {
+            column-width: 300px;
+            
+        }
+    }
+
+
+
+footer {
+    bottom: 0vh;
+    position: fixed;
+    height: 10vh;
+    width: 250vh;
+    font-size: 40px;
+}
+
+
+
+
+@media screen {
+    footer {
+        display: none;
+    }
+}
